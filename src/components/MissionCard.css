@@ -1,5 +1,5 @@
 .mission-list {
-  text-align: center;
+  text-align: left;
   padding: 20px;
 }
 
@@ -11,9 +11,9 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2열 레이아웃 */
-  gap: 20px; /* 카드 간 간격 */
-  max-width: 600px;
-  margin: 0 auto; /* 가운데 정렬 */
+  gap: 20px;
+  width: 680px;
+  margin: 0 auto;
 }
 
 .mission-card {
