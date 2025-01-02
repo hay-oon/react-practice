@@ -1,3 +1,49 @@
 .aside {
   margin-top: 60px;
 }
+
+.speechBalloon {
+  width: 140px;
+  border: solid 1px #d5d5d9;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.learningLevel {
+  border: solid 1px #d5d5d9;
+  border-radius: 12px;
+  padding: 17px 18px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 48px;
+  margin-bottom: 20px;
+}
+
+.level {
+  width: 242px;
+  height: 6.5px;
+  border: none;
+  border-radius: 20px;
+  background-color: #d5d5d9;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.asideContents {
+  border: solid 1px #d5d5d9;
+  border-radius: 12px;
+  padding: 17px 18px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.gap {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

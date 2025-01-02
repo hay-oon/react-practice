@@ -11,7 +11,10 @@ export function MissionCard() {
         </div>
 
         <div className="mission-card">
-          <h3>Reply to Topic Mission</h3>
+          <h3>
+            Reply to Topic
+            <br /> Mission
+          </h3>
           <p className="description">Not completed yet</p>
         </div>
 

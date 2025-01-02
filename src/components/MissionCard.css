@@ -1,11 +1,9 @@
-.mission-list {
-  text-align: left;
-  padding: 20px;
-}
-
 .mission-list h2 {
-  font-size: 20px;
-  margin-bottom: 20px;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
 
 .grid {
@@ -13,10 +11,15 @@
   grid-template-columns: repeat(2, 1fr); /* 2열 레이아웃 */
   gap: 20px;
   width: 680px;
+  height: 500px;
   margin: 0 auto;
 }
 
 .mission-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   background-color: #f4f4f4;
   border-radius: 10px;
   padding: 20px;
@@ -26,16 +29,13 @@
 }
 
 .mission-card h3 {
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 28px;
+  font-weight: 700;
   margin-bottom: 10px;
 }
 
 .mission-card .description {
-  font-size: 14px;
-  color: #757575;
-}
-
-.mission-card:hover {
-  transform: translateY(-5px);
+  font-size: 20px;
+  font-weight: 600;
+  color: #acacb3;
 }

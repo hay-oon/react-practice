@@ -3,6 +3,7 @@ import "./Avatar.css";
 
 const imageStyle = {
   width: "211px",
+  height: "170px",
 };
 
 export function Avatar() {
