@@ -1,0 +1,41 @@
+.mission-list {
+  text-align: center;
+  padding: 20px;
+}
+
+.mission-list h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2열 레이아웃 */
+  gap: 20px; /* 카드 간 간격 */
+  max-width: 600px;
+  margin: 0 auto; /* 가운데 정렬 */
+}
+
+.mission-card {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.mission-card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.mission-card .description {
+  font-size: 14px;
+  color: #757575;
+}
+
+.mission-card:hover {
+  transform: translateY(-5px);
+}
