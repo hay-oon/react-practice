@@ -1,5 +1,6 @@
-import { Avatar } from "../common/Avatar";
-import "./Aside.css";
+import { Avatar } from "./Avatar";
+import "../styles/Aside.css";
+
 export function Aside() {
   return (
     <div className="aside">

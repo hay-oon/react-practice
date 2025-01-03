@@ -1,5 +1,5 @@
-import corddy from "../image/corddy1.png";
-import "./Avatar.css";
+import corddy from "../images/corddy1.png";
+import "../styles/Avatar.css";
 
 const imageStyle = {
   width: "211px",
