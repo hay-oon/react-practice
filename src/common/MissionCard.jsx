@@ -1,4 +1,4 @@
-import "./MissionCard.css";
+import "../styles/MissionCard.css";
 
 export function MissionCard() {
   return (

@@ -1,23 +1,17 @@
 import { LoginButton } from "../common/LoginButton";
 import { NavButton } from "../common/NavButton";
-import "./Header.css";
-
-const flex = {
-  display: "flex",
-  alignItems: "center",
-  gap: "30px",
-};
+import "../styles/Header.css";
 
 export function Header() {
   return (
-    <header className="header">
-      <div style={flex}>
+    <header className="headerContainer">
+      <div className="headerContents">
         <NavButton>🎯 Today's mission</NavButton>
         <NavButton>💡 Topic ideas</NavButton>
         <NavButton>🌊 Cozy ocean</NavButton>
         <NavButton>📚 Concepts study</NavButton>
       </div>
-      <div style={flex}>
+      <div className="headerContents">
         <div>name</div>
         <LoginButton />
       </div>
